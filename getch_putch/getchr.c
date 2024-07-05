@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+
+{
+char ch='A';
+
+printf("\n Enter new character value :",ch);
+ch=getchar();
+printf("\n\n new value of character = %c \n",ch);
+
+printf("\n ==========================THANK YOU============================");
+getch();
+return 0;
+}
+
