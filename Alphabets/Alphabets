@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char Spt='\0',Ept='\0';
+printf("\n Enter start  point :");
+scanf("%c",&Spt);
+printf("\n Enter End point :");
+scanf("%c",&Ept);
+printf("\n Given letters from %c to %c \n",Spt,Ept);
+
+  while(Spt<=Ept)
+{
+    printf("\n %c",Spt);
+    Spt++;
+}
+printf("\=============== THANK YOU=================");
+getch();
+return 0;
+}
+
