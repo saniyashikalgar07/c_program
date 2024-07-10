@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int Marks[3];
+  printf("\n Enter Physic Marks : ");
+  scanf("%d",&Marks[0]);
+
+  printf("\n Enter Chemistry Marks :");
+  scanf("%d",&Marks[1]);
+
+  printf("\n Enter  Maths Marks :");
+  scanf("%d",&Marks[2]);
+
+  printf("\n Physic= %d , Chemistry=%d , Maths =%d",Marks[0],Marks[1],Marks[2]);
+
+  getch ();
+  return 0;
+}
