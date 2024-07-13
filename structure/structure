@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+struct Product
+{
+    int PID;
+    char PName[20];
+    float PPprice;
+    float PSprice;
+};
+int main()
+{
+    struct Product pObj;
+
+
+   pObj.PID = 21;
+    strcpy(pObj.PName,"Book");
+    pObj.PPprice=120;
+    pObj. PSprice=140;
+
+    printf("\n product ID is = %d.",pObj.PID);
+    printf("\n Product Name =%s.",pObj.PName);
+    printf("\n product Product Purchase Price is = %0.2f.",pObj.PPprice);
+    printf("\n product Product Sales price  is = %0.2f.",pObj.PSprice);
+
+    getch ();
+    return 0;
+}
